@@ -1,0 +1,543 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.h21{
+    text-align: center;
+    font-family: roboto;
+    font-size: 40px;
+    font-style: normal;
+}
+/* First menu bar design starts here */
+.navbar{
+    background-color: #00ffff;
+    overflow: hidden;
+    padding: 7px;
+}
+.navbar .navbar-leftContent{
+    width: 12%;
+    float: left;
+    margin-left: 50px;
+}
+.navbar .navbar-leftContent a{
+    text-decoration: none;
+    color: #000;
+    font-size: 38px;
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 5px;
+    display: inline-block;
+}
+.navbar .navbar-menu{
+    width: 50%;
+    float: left;
+}
+.navbar .navbar-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar .navbar-menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navbar .navbar-rightContent{
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.navbar .navbar-rightContent form input[type="search"]{
+    padding: 12px 34px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 0;
+    width: 160px;
+    background-image: url('image/search.png');
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+    background-size: 15px;
+    
+}
+
+.navbar .navbar-rightContent form input[type="submit"]{
+    background-color: #009fe3;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    width: 80px;
+    color: #000;
+    font-size: 16px;
+    font-family: roboto;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.navbar .navbar-rightContent form input[type="submit"]:hover{
+    box-shadow: 0 3px 5px #00b3b3;
+    transition: 0.2s;
+}
+/* First menu bar design ends here */
+/* second menu bar design starts here */
+.navbar1{
+    margin-top: 50px;
+    background-color: #d6f646;
+    overflow: hidden;
+    padding: 7px;
+}
+.navbar1 .navbar1-logoContent{
+    float: left;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 4px;
+}
+.navbar1 .navbar1-logoContent a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-family: roboto;
+    font-weight: bold;
+}
+.navbar1 .navbar1-menuContent{
+    float: right;
+    margin-right: 70px;
+}
+.navbar1 .navbar1-menuContent ul{
+    list-style-type: none;
+}
+.navbar1 .navbar1-menuContent ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.navbar1 .navbar1-menuContent ul li:last-child{
+    margin-right: 0;
+}
+.navbar1 .navbar1-menuContent ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: bold;
+}
+/* second menu bar design ends here */
+
+/* third menu bar design starts here */
+.navbar2{
+    margin-top: 50px;
+    background-color: #50ea7d;
+    overflow: hidden;
+}
+.navbar2 .navbar2-leftContent{
+    float: left;
+    width: 25%;
+    margin-left: 56px;
+    margin-top: 10px;
+}
+.navbar2 .navbar2-leftContent a{
+    text-decoration: none;
+    color: #000;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.navbar2 .navbar2-rightContent{
+    float: left;
+    margin-left: 100px;
+}
+.navbar2 .navbar2-rightContent ul{
+    list-style-type: none;
+}
+.navbar2 .navbar2-rightContent ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.navbar2 .navbar2-rightContent ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: roboto;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+.navbar2 .navbar2-rightContent ul li .active{
+    background-color: #0a712e;
+    color: #fff;
+    box-shadow: 0 4px 5px #39a759;
+}
+/* third menu bar design ends here */
+
+.h22{
+    text-align: center;
+    font-family: roboto;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+}
+/* card layout 1 style starts here */
+.card-layout-section{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.card{
+    background-color: #46deba;
+    width: 220px;
+    padding: 20px;
+    float: left;
+    margin-left: 120px;
+}
+
+.card .card-body h3{
+    width: 150px;
+    font-size: 20px;
+    font-family: roboto;
+}
+.card .card-body p{
+    font-size: 16px;
+    font-family: roboto;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.card .card-body a{
+    background-color: #009fe3;
+    padding: 10px 12px;
+    color: #000;
+    font-family: roboto;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* card layout 1 style ends here */
+
+/* card layout 2 style starts here */
+.card-layout-section2{
+    display: table;
+    clear: both;
+    margin-top: 50px;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.card1{
+    width: 220px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    float: left;
+    margin-left: 150px;
+}
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+.card1 .card-body{
+    padding: 18px;
+}
+.card1 .card-body p{
+    font-family: roboto;
+    font-size: 14px;
+}
+.card1 .card-body a{
+    background-color: #ffed00;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 80px;
+    margin: auto;
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* card layout 2 style ends here */
+
+/* footer style starts here */
+.h23{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto;
+}
+h3{
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #2a2d2c;
+    margin-top: 50px;
+    clear: both;
+    display: table;
+}
+.footer .footer-logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-family: Azonix;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .social-media span{
+    margin-right: 7px;
+}
+
+.footer .footer-logo{
+   width: 20%;
+   float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
+.footer .footer-support{
+    width: 25%;
+    float: left;
+    margin-top: 36px;
+}
+footer .footer-support h4{
+    color: #fff;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 37px;
+}
+.footer .footer-support ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer .footer-support ul li a{
+    color: #fff;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer .footer-address{
+    width: 25%;
+    float: left;
+    margin-top: 36px;
+}
+.footer .footer-address h4{
+    color: #fff;
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: normal;
+}
+.footer .footer-address address{
+    font-family: roboto;
+    font-size: 14px;
+    font-style: normal;
+    color: #fff;
+    font-weight: bold;
+
+}
+.footer .footer-subscribe{
+    float: left;
+    width: 25%;
+    margin-top: 55px;
+}
+.footer .footer-subscribe span{
+    font-size: 12px;
+    font-family: roboto;
+    color: #fff;
+    font-weight: bold;
+}
+.footer .footer-subscribe input[type="email"]{
+    margin-top: 40px;
+    width: 200px;
+    border: 0;
+    outline: 0;
+    margin-left: 50px;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+}
+.footer .footer-subscribe input[type="email"]::placeholder{
+    color: #fff;
+    font-family: roboto;
+}
+.footer .footer-subscribe button{
+    display: block;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #da1f1f;
+    color: #fff;
+    padding: 12px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+/* footer style ends here */
+.footer1{
+    width: 100%;
+    height: 380px;
+    background-color: #bd4d38;
+    
+}
+.footer1 .footer1-row{
+    display: table;
+    clear: both;
+    margin-left: 100px;
+}
+.footer1 .footer1-row .footer1-leftContent{
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+}
+.footer1 .footer1-row .footer1-leftContent ul{
+    list-style-type: none;
+    
+}
+.footer1 .footer1-row .footer1-leftContent ul li{
+    margin-bottom: 11px;
+}
+
+.footer1 .footer1-row .footer1-leftContent ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: roboto;
+}
+
+.footer1 .footer1-row .footer1-service{
+    width: 200px;
+    float: left;
+    margin-top: 34px;
+}
+.footer1 .footer1-row .footer1-service ul{
+    list-style-type: none;
+}
+.footer1 .footer1-service ul li{
+    margin-bottom: 8px;
+}
+.footer1 .footer1-row .footer1-service ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: roboto;
+}
+.footer1 .footer1-row .footer1-social{
+    float: left;
+    width: 200px;
+    margin-top: 34px;
+}
+.footer1 .footer1-row .footer1-social ul{
+    list-style-type: none;
+    
+}
+.footer1 .footer1-row .footer1-social ul li{
+    margin-bottom: 7px;
+}
+.footer1 .footer1-row .footer1-social ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 16px;
+}
+.footer1 .footer1-row .footer1-Activity{
+    width: 200px;
+    float: left;
+    margin-top: 34px;
+}
+.footer1 .footer1-row .footer1-Activity ul{
+    list-style-type: none;
+}
+.footer1 .footer1-row .footer1-Activity ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: roboto;
+}
+.footer1 .footer1-row .footer1-Activity ul li{
+    margin-bottom: 9px;
+}
+.footer1 .footer1-row .footer1-newsletter{
+    float: left;
+    width: 350px;
+    /* border: 1px solid blue; */
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer1 .footer1-row .footer1-newsletter h4{
+    color: #fff;
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+.footer1 .footer1-row .footer1-newsletter input[type="email"]{
+    padding: 12px 45px;
+    border: 0;
+    outline: 0;
+    background-color: #b7b7b7;
+    background-image: url('image/mail.png');
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+    background-size: 25px;
+    font-size: 14px;
+    font-family: roboto;
+    position: relative;
+}
+.footer1 .footer1-row .footer1-newsletter button{
+    background-color: #fff200;
+    padding: 13px 16px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.19);
+    position: absolute;
+}
+.footer1 .footer1-connect{
+    margin-top: 30px;
+    float: right;
+    margin-right: 100px;
+    
+}
+.footer1 .footer1-connect p{
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    font-family: roboto;
+    margin-right: 18px;
+}
+.footer1 .footer1-connect span{
+    vertical-align:middle;
+    margin-right: 5px;
+}
+.copyright{
+    background-color: #bd4d38;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-family: roboto;
+    color: #fff;
+    
+}
+
